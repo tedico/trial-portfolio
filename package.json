@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server public",
+    "deploy": "gh-pages -d public"
+  },
+  "keywords": [],
+  "author": "Ted Sandico <tedsandico@tedsandico.com> (www.tedsandico.com)",
+  "license": "MIT",
+  "homepage": "https://tedico.github.io/trial-portfolio",
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "live-server": "^1.2.1"
+  },
+  "dependencies": {}
+}
